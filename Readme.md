@@ -65,7 +65,7 @@ Each service is event-aware and reacts to events using RabbitMQ queues:
 * Emit payment result events
 * Allow users to view payment history
 
-## ✅ Key Features
+## Key Features
 
 * Fully **event-driven communication** using RabbitMQ
 * Services are **loosely coupled** and independently scalable
