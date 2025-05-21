@@ -59,7 +59,7 @@ Each service is event-aware and reacts to events using RabbitMQ queues:
 * Restrict order access to owners or admin
 * Listen to payment events to update order status
 
-### 💳 Payment Service
+###  Payment Service
 
 * Simulate payments
 * Emit payment result events
