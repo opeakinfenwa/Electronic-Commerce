@@ -97,11 +97,11 @@ Each service has its own `.env` file. Ensure you configure:
 Clone the repository and install dependencies in each service folder:
 
 ```bash
-cd user-service
+cd "user service"
 npm install
 npm run dev
 
-cd product-service
+cd "product service"
 npm install
 npm run dev
 
