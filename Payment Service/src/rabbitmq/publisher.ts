@@ -34,5 +34,5 @@ export const publishPaymentEvent = async (event: PaymentEvent) => {
     { contentType: "application/json" }
   );
 
-  console.log("📤 Published PAYMENT_RESULT event:", payload);
+  console.log("Published PAYMENT_RESULT event:", payload);
 };
