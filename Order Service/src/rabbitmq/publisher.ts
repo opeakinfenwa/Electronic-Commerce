@@ -47,5 +47,5 @@ export const publishOrderCreatedEvent = async (
     { contentType: "application/json" }
   );
 
-  console.log("📤 Published ORDER_CREATED event");
+  console.log("Published ORDER_CREATED event");
 };
