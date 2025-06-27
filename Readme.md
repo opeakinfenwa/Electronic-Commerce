@@ -38,7 +38,7 @@ Each service is event aware and reacts to events using RabbitMQ queues:
 ### User Service
 
 * Register / Login users
-* JWT-based authentication middleware
+* JWT based authentication middleware
 * Upload and store user profile pictures (via Cloudinary)
 
 ### Product Service
