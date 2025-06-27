@@ -2,7 +2,7 @@
 
 # E-Commerce Microservices Architecture 
 
-This project is a **production-grade E-Commerce backend** built using a **microservices architecture**. It leverages **Node.js**, **Express**, **MongoDB**, and **RabbitMQ** for asynchronous, event-driven communication between services.
+This project is a **production grade E-Commerce backend** built using a **microservices architecture**. It leverages **Node.js**, **Express**, **MongoDB**, and **RabbitMQ** for asynchronous, event driven communication between services.
 
 ## Architecture Overview
 
@@ -28,7 +28,7 @@ These services communicate through **RabbitMQ** for seamless and scalable inter-
 
 ## Event-Driven Communication
 
-Each service is event-aware and reacts to events using RabbitMQ queues:
+Each service is event aware and reacts to events using RabbitMQ queues:
 
 * `ORDER_CREATED` ➝ Triggered by Order Service ➝ Consumed by Payment Service
 * `PAYMENT_SUCCESS` or `PAYMENT_FAILED` ➝ Triggered by Payment Service ➝ Consumed by Product and Order Services
@@ -67,10 +67,10 @@ Each service is event-aware and reacts to events using RabbitMQ queues:
 
 ## Key Features
 
-* Fully **event-driven communication** using RabbitMQ
+* Fully **event driven communication** using RabbitMQ
 * Services are **loosely coupled** and independently scalable
 * Uses **MongoDB** for persistence in each service
-* Role-based **authorization** (admin/user)
+* Role based **authorization** (admin/user)
 * Supports **secure file uploads** for user avatars
 
 ## Getting Started
